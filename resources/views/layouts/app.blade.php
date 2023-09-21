@@ -21,6 +21,8 @@
         <x-banner/>
         @include('layouts.pertials.header')
 
+            @yield('hero')
+
 
             <!-- Page Content -->
             <main >

@@ -1,8 +1,6 @@
 <header class="flex items-center justify-between py-3 px-6 border-b border-gray-100">
     <div id="header-left" class="flex items-center">
-        <div class="text-gray-800 font-semibold">
-            <span class="text-yellow-500 text-xl">Livewire</span> News
-        </div>
+        <x-authentication-card-logo />
         <div class="top-menu ml-10">
             <ul class="flex space-x-4">
                 <li>
